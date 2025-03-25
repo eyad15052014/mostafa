@@ -1,0 +1,87 @@
+body {
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#text {
+  border: solid 2px;
+  border-radius: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(255, 130, 4);
+  padding: 7px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 130, 4);
+  height: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+@media (max-width: 450px) {
+  nav {
+    flex-direction: column;
+    height: 100px;
+  }
+}
+span {
+  margin: 22px;
+}
+#text {
+  margin-left: 12px;
+  margin-right: 12px;
+  background-image: url(./search.png);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: right;
+}
+#coco {
+  margin-top: 16.5px;
+  width: 835px;
+}
+#entssfg {
+  margin-top: 15px;
+  text-align: center;
+  background-color: rgb(255, 130, 4);
+  padding: 7px;
+}
+#rtychdwed {
+  margin: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+#ff {
+  width: 300px;
+  margin-right: 10px;
+}
+#dd {
+  width: 300px;
+  margin-right: 10px;
+}
+#rr {
+  width: 300px;
+  margin-right: 5px;
+}
+#yy {
+  width: 50px;
+  margin-right: 5px;
+}
